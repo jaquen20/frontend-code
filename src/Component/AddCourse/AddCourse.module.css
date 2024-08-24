@@ -1,0 +1,47 @@
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #244dff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #244cffc7;
+}
+
+.addCourseContainer,
+.addCouseInstance {
+  border-radius: 5px;
+  /* background-color: #4e1414; */
+  padding: 40px;
+  margin: 20px;
+}
+.container {
+  display: flex;
+}
+.button {
+  width: fit-content;
+  /* font-size: 10px; */
+  color: black;
+  background-color: #244cffc7;
+  height: fit-content;
+  padding: 0% 10px;
+  margin: auto 10px;
+}

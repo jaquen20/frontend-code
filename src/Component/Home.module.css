@@ -1,0 +1,18 @@
+/* styles.css */
+.fixedHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #81bece;
+  z-index: 1000;
+}
+
+.headerPadding {
+  padding-top: 56px;
+}
+.card {
+  /* background-color: #81bece; */
+  width: 700px;
+  border: solid 2px black;
+}
